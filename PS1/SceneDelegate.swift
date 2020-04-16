@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  NN1
+//  PS1
 //
-//  Created by Martin Hruby on 01/04/2020.
+//  Created by Martin Hruby on 15/04/2020.
 //  Copyright © 2020 Martin Hruby FIT. All rights reserved.
 //
 
@@ -25,12 +25,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Create the SwiftUI view and set the context as the value for the managedObjectContext environment keyPath.
         // Add `@Environment(\.managedObjectContext)` in the views that will need the context.
         let contentView = ContentView().environment(\.managedObjectContext, context)
-        
-        //
-        DispatchQueue.main.async {
-            //
-            CKSuperMAIN.shared.ckConnectionStartup(scene: scene)
-        }
 
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {

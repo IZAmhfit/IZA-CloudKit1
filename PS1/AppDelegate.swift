@@ -1,77 +1,21 @@
 //
 //  AppDelegate.swift
-//  NN1
+//  PS1
 //
-//  Created by Martin Hruby on 01/04/2020.
+//  Created by Martin Hruby on 15/04/2020.
 //  Copyright © 2020 Martin Hruby FIT. All rights reserved.
 //
 
 import UIKit
 import CoreData
-import CloudKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate
-{
+class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    //
-    func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
-        //
-        let tokenParts = deviceToken.map { data in String(format: "%02.2hhx", data) }
-        let token = tokenParts.joined()
-        print("Device Token: \(token)")
-    }
-    
-    func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void)
-    {
-        //
-        let notif = CKNotification(fromRemoteNotificationDictionary: userInfo)
-        
-        //
-        if notif?.subscriptionID == "my-subs-all" {
-            //
-            print("Mam tu pozadavek na diff")
-            
-            //
-            CKSuperMAIN.shared.startDiffSync()
-            
-            //
-            completionHandler(UIBackgroundFetchResult.newData)
-            
-            //
-            return ;
-        }
-        
-        //
-        print("Notiiffkka")
-        
-        //
-        completionHandler(UIBackgroundFetchResult.noData)
-    }
-    
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool
-    {
-        //
-        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge]) { (granted, error) in
-                
-            //
-            DispatchQueue.main.async {
-                application.registerForRemoteNotifications()
-                
-                //
-                UNUserNotificationCenter.current().delegate = self
-                
-                UNUserNotificationCenter.current().getNotificationSettings { setts in
-                    //
-                    print(setts)
-                }
-            }
-            
-        }
 
-        
-        //
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        // Override point for customization after application launch.
         return true
     }
 
@@ -91,14 +35,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
 
     // MARK: - Core Data stack
 
-    lazy var persistentContainer: NSPersistentContainer = {
+    lazy var persistentContainer: NSPersistentCloudKitContainer = {
         /*
          The persistent container for the application. This implementation
          creates and returns a container, having loaded the store for the
          application to it. This property is optional since there are legitimate
          error conditions that could cause the creation of the store to fail.
         */
-        let container = NSPersistentContainer(name: "NN1")
+        let container = NSPersistentCloudKitContainer(name: "PS1")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
                 // Replace this implementation with code to handle the error appropriately.

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C55813A243CC61000E77760 /* CK-Exportable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C558139243CC61000E77760 /* CK-Exportable.swift */; };
+		6C55813C243CCAF200E77760 /* CK-demoClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C55813B243CCAF200E77760 /* CK-demoClass.swift */; };
+		6C55813E243CD87500E77760 /* CK-Managed-List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C55813D243CD87500E77760 /* CK-Managed-List.swift */; };
+		6C558140243CEDF100E77760 /* CKSuperMAIN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C55813F243CEDF100E77760 /* CKSuperMAIN.swift */; };
+		6C558143243DBB2100E77760 /* CKDiffFetchOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C558142243DBB2100E77760 /* CKDiffFetchOperation.swift */; };
+		6C558145243DCC8800E77760 /* CKSaveOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C558144243DCC8800E77760 /* CKSaveOperation.swift */; };
 		6C6FF47C2434C9DB008C281B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6FF47B2434C9DB008C281B /* AppDelegate.swift */; };
 		6C6FF47E2434C9DB008C281B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6FF47D2434C9DB008C281B /* SceneDelegate.swift */; };
 		6C6FF4812434C9DB008C281B /* NN1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6C6FF47F2434C9DB008C281B /* NN1.xcdatamodeld */; };
@@ -14,9 +20,25 @@
 		6C6FF4852434C9DD008C281B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C6FF4842434C9DD008C281B /* Assets.xcassets */; };
 		6C6FF4882434C9DD008C281B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C6FF4872434C9DD008C281B /* Preview Assets.xcassets */; };
 		6C6FF48B2434C9DD008C281B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C6FF4892434C9DD008C281B /* LaunchScreen.storyboard */; };
+		6C6FF4952434CB0D008C281B /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C6FF4942434CB0D008C281B /* CloudKit.framework */; };
+		6CBA57C2243DD42800D47203 /* CkRecord-extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBA57C1243DD42800D47203 /* CkRecord-extensions.swift */; };
+		6CBA57C4243DD57B00D47203 /* UserDefaults-extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBA57C3243DD57B00D47203 /* UserDefaults-extensions.swift */; };
+		6CBA57CC24470C7500D47203 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBA57CB24470C7500D47203 /* AppDelegate.swift */; };
+		6CBA57CE24470C7500D47203 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBA57CD24470C7500D47203 /* SceneDelegate.swift */; };
+		6CBA57D124470C7500D47203 /* PS1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6CBA57CF24470C7500D47203 /* PS1.xcdatamodeld */; };
+		6CBA57D324470C7500D47203 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBA57D224470C7500D47203 /* ContentView.swift */; };
+		6CBA57D524470C7B00D47203 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CBA57D424470C7B00D47203 /* Assets.xcassets */; };
+		6CBA57D824470C7B00D47203 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CBA57D724470C7B00D47203 /* Preview Assets.xcassets */; };
+		6CBA57DB24470C7B00D47203 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CBA57D924470C7B00D47203 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C558139243CC61000E77760 /* CK-Exportable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CK-Exportable.swift"; sourceTree = "<group>"; };
+		6C55813B243CCAF200E77760 /* CK-demoClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CK-demoClass.swift"; sourceTree = "<group>"; };
+		6C55813D243CD87500E77760 /* CK-Managed-List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CK-Managed-List.swift"; sourceTree = "<group>"; };
+		6C55813F243CEDF100E77760 /* CKSuperMAIN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKSuperMAIN.swift; sourceTree = "<group>"; };
+		6C558142243DBB2100E77760 /* CKDiffFetchOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKDiffFetchOperation.swift; sourceTree = "<group>"; };
+		6C558144243DCC8800E77760 /* CKSaveOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKSaveOperation.swift; sourceTree = "<group>"; };
 		6C6FF4782434C9DB008C281B /* NN1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NN1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C6FF47B2434C9DB008C281B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C6FF47D2434C9DB008C281B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,10 +48,31 @@
 		6C6FF4872434C9DD008C281B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6C6FF48A2434C9DD008C281B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C6FF48C2434C9DD008C281B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C6FF4922434CB01008C281B /* NN1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NN1.entitlements; sourceTree = "<group>"; };
+		6C6FF4942434CB0D008C281B /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		6CBA57C1243DD42800D47203 /* CkRecord-extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CkRecord-extensions.swift"; sourceTree = "<group>"; };
+		6CBA57C3243DD57B00D47203 /* UserDefaults-extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults-extensions.swift"; sourceTree = "<group>"; };
+		6CBA57C924470C7500D47203 /* PS1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PS1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CBA57CB24470C7500D47203 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6CBA57CD24470C7500D47203 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6CBA57D024470C7500D47203 /* PS1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PS1.xcdatamodel; sourceTree = "<group>"; };
+		6CBA57D224470C7500D47203 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6CBA57D424470C7B00D47203 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6CBA57D724470C7B00D47203 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6CBA57DA24470C7B00D47203 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6CBA57DC24470C7B00D47203 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		6C6FF4752434C9DB008C281B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C6FF4952434CB0D008C281B /* CloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CBA57C624470C7500D47203 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,11 +82,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C1307602434F24F001CEBC9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6C558139243CC61000E77760 /* CK-Exportable.swift */,
+				6C55813F243CEDF100E77760 /* CKSuperMAIN.swift */,
+				6C55813B243CCAF200E77760 /* CK-demoClass.swift */,
+				6C55813D243CD87500E77760 /* CK-Managed-List.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6C558141243DBB0C00E77760 /* CK Operations */ = {
+			isa = PBXGroup;
+			children = (
+				6C558142243DBB2100E77760 /* CKDiffFetchOperation.swift */,
+				6C558144243DCC8800E77760 /* CKSaveOperation.swift */,
+			);
+			name = "CK Operations";
+			sourceTree = "<group>";
+		};
 		6C6FF46F2434C9DB008C281B = {
 			isa = PBXGroup;
 			children = (
 				6C6FF47A2434C9DB008C281B /* NN1 */,
+				6CBA57CA24470C7500D47203 /* PS1 */,
 				6C6FF4792434C9DB008C281B /* Products */,
+				6C6FF4932434CB0D008C281B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				6C6FF4782434C9DB008C281B /* NN1.app */,
+				6CBA57C924470C7500D47203 /* PS1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,6 +124,10 @@
 		6C6FF47A2434C9DB008C281B /* NN1 */ = {
 			isa = PBXGroup;
 			children = (
+				6CBA57C0243DD41700D47203 /* System ops */,
+				6C558141243DBB0C00E77760 /* CK Operations */,
+				6C1307602434F24F001CEBC9 /* Model */,
+				6C6FF4922434CB01008C281B /* NN1.entitlements */,
 				6C6FF47B2434C9DB008C281B /* AppDelegate.swift */,
 				6C6FF47D2434C9DB008C281B /* SceneDelegate.swift */,
 				6C6FF4822434C9DB008C281B /* ContentView.swift */,
@@ -74,6 +144,46 @@
 			isa = PBXGroup;
 			children = (
 				6C6FF4872434C9DD008C281B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6C6FF4932434CB0D008C281B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C6FF4942434CB0D008C281B /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6CBA57C0243DD41700D47203 /* System ops */ = {
+			isa = PBXGroup;
+			children = (
+				6CBA57C1243DD42800D47203 /* CkRecord-extensions.swift */,
+				6CBA57C3243DD57B00D47203 /* UserDefaults-extensions.swift */,
+			);
+			name = "System ops";
+			sourceTree = "<group>";
+		};
+		6CBA57CA24470C7500D47203 /* PS1 */ = {
+			isa = PBXGroup;
+			children = (
+				6CBA57CB24470C7500D47203 /* AppDelegate.swift */,
+				6CBA57CD24470C7500D47203 /* SceneDelegate.swift */,
+				6CBA57D224470C7500D47203 /* ContentView.swift */,
+				6CBA57D424470C7B00D47203 /* Assets.xcassets */,
+				6CBA57D924470C7B00D47203 /* LaunchScreen.storyboard */,
+				6CBA57DC24470C7B00D47203 /* Info.plist */,
+				6CBA57CF24470C7500D47203 /* PS1.xcdatamodeld */,
+				6CBA57D624470C7B00D47203 /* Preview Content */,
+			);
+			path = PS1;
+			sourceTree = "<group>";
+		};
+		6CBA57D624470C7B00D47203 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6CBA57D724470C7B00D47203 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -98,6 +208,23 @@
 			productReference = 6C6FF4782434C9DB008C281B /* NN1.app */;
 			productType = "com.apple.product-type.application";
 		};
+		6CBA57C824470C7500D47203 /* PS1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CBA57DD24470C7B00D47203 /* Build configuration list for PBXNativeTarget "PS1" */;
+			buildPhases = (
+				6CBA57C524470C7500D47203 /* Sources */,
+				6CBA57C624470C7500D47203 /* Frameworks */,
+				6CBA57C724470C7500D47203 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PS1;
+			productName = PS1;
+			productReference = 6CBA57C924470C7500D47203 /* PS1.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -109,6 +236,9 @@
 				ORGANIZATIONNAME = "Martin Hruby FIT";
 				TargetAttributes = {
 					6C6FF4772434C9DB008C281B = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					6CBA57C824470C7500D47203 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
@@ -127,6 +257,7 @@
 			projectRoot = "";
 			targets = (
 				6C6FF4772434C9DB008C281B /* NN1 */,
+				6CBA57C824470C7500D47203 /* PS1 */,
 			);
 		};
 /* End PBXProject section */
@@ -142,6 +273,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6CBA57C724470C7500D47203 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CBA57DB24470C7B00D47203 /* LaunchScreen.storyboard in Resources */,
+				6CBA57D824470C7B00D47203 /* Preview Assets.xcassets in Resources */,
+				6CBA57D524470C7B00D47203 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -149,10 +290,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C55813E243CD87500E77760 /* CK-Managed-List.swift in Sources */,
 				6C6FF47C2434C9DB008C281B /* AppDelegate.swift in Sources */,
+				6C55813A243CC61000E77760 /* CK-Exportable.swift in Sources */,
+				6CBA57C2243DD42800D47203 /* CkRecord-extensions.swift in Sources */,
+				6C558143243DBB2100E77760 /* CKDiffFetchOperation.swift in Sources */,
 				6C6FF4812434C9DB008C281B /* NN1.xcdatamodeld in Sources */,
 				6C6FF4832434C9DB008C281B /* ContentView.swift in Sources */,
 				6C6FF47E2434C9DB008C281B /* SceneDelegate.swift in Sources */,
+				6CBA57C4243DD57B00D47203 /* UserDefaults-extensions.swift in Sources */,
+				6C558145243DCC8800E77760 /* CKSaveOperation.swift in Sources */,
+				6C558140243CEDF100E77760 /* CKSuperMAIN.swift in Sources */,
+				6C55813C243CCAF200E77760 /* CK-demoClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CBA57C524470C7500D47203 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CBA57CC24470C7500D47203 /* AppDelegate.swift in Sources */,
+				6CBA57D124470C7500D47203 /* PS1.xcdatamodeld in Sources */,
+				6CBA57D324470C7500D47203 /* ContentView.swift in Sources */,
+				6CBA57CE24470C7500D47203 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +323,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				6C6FF48A2434C9DD008C281B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6CBA57D924470C7B00D47203 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CBA57DA24470C7B00D47203 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -288,6 +456,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NN1/NN1.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"NN1/Preview Content\"";
 				DEVELOPMENT_TEAM = 6DTJGF3D7H;
@@ -308,6 +477,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NN1/NN1.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"NN1/Preview Content\"";
 				DEVELOPMENT_TEAM = 6DTJGF3D7H;
@@ -318,6 +488,46 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = cz.vutbr.fit.NN1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6CBA57DE24470C7B00D47203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PS1/Preview Content\"";
+				DEVELOPMENT_TEAM = AXZG34XTK9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PS1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cz.vutbr.fit.PS1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6CBA57DF24470C7B00D47203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PS1/Preview Content\"";
+				DEVELOPMENT_TEAM = AXZG34XTK9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PS1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cz.vutbr.fit.PS1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -345,6 +555,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		6CBA57DD24470C7B00D47203 /* Build configuration list for PBXNativeTarget "PS1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CBA57DE24470C7B00D47203 /* Debug */,
+				6CBA57DF24470C7B00D47203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
@@ -355,6 +574,16 @@
 			);
 			currentVersion = 6C6FF4802434C9DB008C281B /* NN1.xcdatamodel */;
 			path = NN1.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		6CBA57CF24470C7500D47203 /* PS1.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6CBA57D024470C7500D47203 /* PS1.xcdatamodel */,
+			);
+			currentVersion = 6CBA57D024470C7500D47203 /* PS1.xcdatamodel */;
+			path = PS1.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
